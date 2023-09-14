@@ -9,11 +9,12 @@ import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<div>
-		<Navbar/>
-		<HomeDisplay/>
-		<Footer/>
+	<div className='index'>
+			<Navbar/>
+			<HomeDisplay/>
+			<Footer/>
 	</div>
+	
 );
 
 // If you want to start measuring performance in your app, pass a function

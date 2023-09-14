@@ -6,12 +6,10 @@ import './HomeDisplay.css'
 
 function HomeDisplay(){
 	return(
-		<body>
-			<div className='background'>
-				<h1 className='name-title'>Collin Brown</h1>
-				<h2 className='skill-title'>Software Developer</h2>
-			</div>
-		</body>
+		<div className='home-display'>
+			<h1>Collin Brown</h1>
+			<h2>Software Developer</h2>
+		</div>
 	);
 }
 

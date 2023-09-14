@@ -8,26 +8,14 @@ import './Navbar.css'
 function Navbar(){
 	return (
 		// navbar div
-		<div>
-			<ul>
-				<li>
-					<a className='Navbar-a-li' href="./about">
-						<strong>About</strong>
-					</a>
-				</li>
-				<li>
-					<a className='Navbar-a-li' href="./video"><strong>Video Editing</strong></a>
-				</li>
-				<li>
-					<a className='Navbar-a-li' href="./programming"><strong>Programming</strong></a>
-				</li>
-				<li>
-					<a className='Navbar-a-li' href="./index"><strong>Home</strong></a>
-				</li>
-					<h1 className='Navbar-name-logo'>Collin<br/> Brown</h1>
-
-			</ul>
-		</div>
+		<nav>
+			<h1>Collin Brown</h1>
+			<div className='page-nav'>
+				<a href="./">Home</a>
+				<a href="./">Projects</a>
+				<a href="./">About</a>
+			</div>
+		</nav>
 	);
 };     
 

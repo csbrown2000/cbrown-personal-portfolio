@@ -1,36 +1,18 @@
-body {
-	background-image: url(../glow-lines-background.jpeg);
-	background-repeat: no-repeat;
-    background-size: 90% 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #000000;
-    margin: 0 auto;
-	display: block;
-}
 
-div.background {
-	/* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
-    position: relative;
-    color: #ffffff;
-    text-align: center;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 250px;
+div.home-display	{
+	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+	padding-top: 17rem;
 }
 
-h1.name-title {
-	text-align: center;
+h1 {
 	justify-content: center;
+	color: white;
 }
 
-h2.skill-title {
+h2 {
 	text-align: center;
-	justify-content: center;
+	color: white;
 }

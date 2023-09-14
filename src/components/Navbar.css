@@ -3,120 +3,41 @@
 /* Heading font */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro&display=swap');
 
-div {
-	display: block;
+nav, h1, div {
+	display: flex;
 }
 
-ul {
-	list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 30px;
-    padding-right: 100px;
-    overflow: hidden;
-    background-color: #ffffff;
-	display: block;
-	margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+nav{
+	flex-direction: row;
+	flex-grow: 1;
+	background-color: white;
 }
 
-li {
-    font-size: 17px;
-    float: right;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-	display: list-item;
-    text-align: -webkit-match-parent;
-	list-style: none;
-}
-
-li a {
-    display: inline-block;
-    color: #0d0d0d;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	position: relative;
-}
-
-a.Navbar-a-li::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #0004ff;
-	transform-origin: bottom right;
-	transition: transform 0.25s ease-out;
-	}
+div.page-nav {
+	flex-grow: 1;
+	justify-content: right;
+	padding-inline-end: 2rem;
 	
-a.Navbar-a-li:hover::after{
-	transform: scaleX(1);
-	transform-origin: bottom left;
 }
 
-h1.Navbar-name-logo {
-	float: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 75px;
-    margin-right: 0;
-	overflow-clip-margin: content-box;
-    overflow: clip;
-}
+nav h1 {
+	flex-grow: 1;
+	justify-content: start;
+	padding-left: 2rem;
 
-/* a.Navbar-a-li {
-	display: inline-block;
-	font-family: 'Source-Code-Pro';
-	font-size: large;
-	text-align: center;
-	padding-right: 50px;
-	padding-left: 50px;
-	text-decoration: none;
-} */
-
-.Navbar-nav-links {
-	display: inline;
-	position: relative;
-	float: right;
-	padding-top: 30px;
-}
-
-/* Gets rid of link clicked color change */
-/* a:-webkit-any-link {
-	text-decoration: none;
+	font-family: Bebas Neue;
 	color: black;
-} */
+	text-align: center;
+	font-size: 2rem;
+}
 
-.hover-underline-animation {
-	display: inline-block;
-	position: relative;
-	color: #0087ca;
-  }
-  
-  .hover-underline-animation::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #0087ca;
-	transform-origin: bottom right;
-	transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover::after {
-	transform: scaleX(1);
-	transform-origin: bottom left;
-  }
+a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-inline: 1.5rem;
+	font-family: Source Code Pro;
+	color: black;
+	text-decoration: none;
+	font-size: 1.25rem;
+}
