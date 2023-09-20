@@ -6,7 +6,7 @@ div.root {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
-	height: 100%;
+	height: fit-content;
 	background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -45,11 +45,11 @@ body {
 }
 
 HomeDisplay {
-	padding-top: 20rem;
+	padding-top: 25rem;
 }
 
 Footer {
-	padding-top: 20rem;
+	padding-top: 25rem;
 }
 
 code {

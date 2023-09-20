@@ -13,7 +13,7 @@ function Navbar(){
 			<div className='page-nav'>
 				<a href="./">Home</a>
 				<a href="./">Projects</a>
-				<a href="./">About</a>
+				<a href="./about.js">About</a>
 			</div>
 		</nav>
 	);

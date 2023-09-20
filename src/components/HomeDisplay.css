@@ -1,18 +1,22 @@
+/* Code font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 div.home-display	{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex-grow: 1;
-	padding-top: 17rem;
+	padding-top: 25rem;
 }
 
-h1 {
+div.home-display h1 {
 	justify-content: center;
 	color: white;
+	font-size: xx-large;
 }
 
-h2 {
+div.home-display h2 {
+	font-family: Source Code Pro;
 	text-align: center;
 	color: white;
 }
