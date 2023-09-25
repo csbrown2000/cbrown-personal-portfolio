@@ -10,10 +10,10 @@ function Footer(){
 			<ul className='footer-list'>
 				<li className='footer-links'>
 					
-					<a className='github' href="https://www.github.com" alt='Github link'>
+					<a className='github' href="https://github.com/csbrown2000" alt='Github link'>
 						<img src={require('../resources/github-logo.png')} alt="Github Logo" />
 					</a>
-					<a className='linkedin' href="www.linkedin.com">
+					<a className='linkedin' href="https://www.linkedin.com/in/collin-brown-4116ab292/">
 						<img src={require('../resources/linkedin-logo.png')} alt="Linkedin Logo" />
 					</a>
 				</li>
