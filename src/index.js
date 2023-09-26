@@ -2,19 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-// Components
-import Navbar from './components/Navbar'
-import HomeDisplay from './components/HomeDisplay';
-import Footer from './components/Footer';
+// App Component
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<div className='index'>
-			<Navbar/>
-			<HomeDisplay/>
-			<Footer/>
-	</div>
-	
+		<App/>
 );
 
 // If you want to start measuring performance in your app, pass a function

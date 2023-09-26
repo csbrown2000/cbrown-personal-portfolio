@@ -1,1 +1,46 @@
+/* * {
+	border: 1px solid white;
+} */
+
+ div.index {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	background-size: cover;
+}
+
+header {
+	display: flex;
+	flex-grow: 1;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	
+	flex-grow: 1;
+	background-image: url(./glow-lines-background.jpeg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+HomeDisplay {
+	padding-top: 25rem;
+}
+
+Footer {
+	margin-top: 25rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 

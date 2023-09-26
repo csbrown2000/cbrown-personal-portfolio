@@ -1,6 +1,6 @@
 // React specific imports
 import React from 'react';
-// import {Link, Outlet} from 'react-router-dom';
+
 
 // CSS styling
 import './Navbar.css'
@@ -13,7 +13,7 @@ function Navbar(){
 			<h1>Collin Brown</h1>
 			<div className='page-nav'>
 				<a href="./">Home</a>
-				<a href="./">Projects</a>
+				<a href="./projects.js">Projects</a>
 				<a href="./about.js">About</a>
 
 				{/* <Link to="">Home</Link>
