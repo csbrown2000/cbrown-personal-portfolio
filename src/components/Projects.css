@@ -1,0 +1,25 @@
+div.list-item {
+	border: 1px solid white;
+	color: black;
+}
+
+div.list-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+	background-color: white;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+div.list-item div{
+	display: flex;
+	flex-direction: column;
+	max-width: 50rem;
+}

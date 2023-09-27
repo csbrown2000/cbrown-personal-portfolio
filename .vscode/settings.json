@@ -1,3 +1,13 @@
 {
-	"workbench.colorTheme": "High Contrast Theme"
+	"workbench.colorTheme": "High Contrast Theme",
+	"workbench.iconTheme": "vs-seti",
+	"workbench.colorCustomizations": {
+
+	},
+	"apc.electron": {
+		"opacity": 0.95,
+		"transparent": true,
+		"backgroundColor": "#00000000",
+		"vibrancy": "ultra-dark"
+	},
 }

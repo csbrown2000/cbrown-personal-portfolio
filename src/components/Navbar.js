@@ -13,8 +13,8 @@ function Navbar(){
 			<h1>Collin Brown</h1>
 			<div className='page-nav'>
 				<a href="./">Home</a>
-				<a href="./projects.js">Projects</a>
-				<a href="./about.js">About</a>
+				<a href="./projects">Projects</a>
+				<a href="./about">About</a>
 
 				{/* <Link to="">Home</Link>
 				<Link to="">Projects</Link>

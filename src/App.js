@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomeDisplay from './components/HomeDisplay';
+import Projects from './components/Projects';
 
 function App() {
 	return(
@@ -17,7 +18,7 @@ function App() {
 						
 						{/* About Page */}
 					</Route>
-					<Route exact path='/projects'>
+					<Route exact path='/projects' element={<Projects/>}>
 						{/* {// Projects page} */}
 					</Route>
 						
