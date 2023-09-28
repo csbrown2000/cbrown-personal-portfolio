@@ -11,7 +11,9 @@ function ProjectListItem(props) {
 					<h1>{props.title}</h1>
 					<p>{props.description}</p>
 				</div>
-				<img src={props.img} alt={altString}/>
+				{typeof props.img === 'object' ? <div/> :
+				props.img === '' ? <div/> : <img src={props.img} alt={altString}/>}
+				
 			</div>
 	 );
 }
