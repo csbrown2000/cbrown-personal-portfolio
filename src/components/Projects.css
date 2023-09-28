@@ -20,7 +20,7 @@ div.list-item {
 	border-radius: 5px;
 }
 
-div.list-item div{
+div.list-item div.item-info{
 	display: flex;
 	flex-direction: column;
 	max-width: 50rem;
