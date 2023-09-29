@@ -7,7 +7,7 @@ function About() {
 	return (  
 		<div className="about">
 			<div className="about-title">
-				<img src="" alt="" />
+				{/* <img src="" alt="" /> */}
 				<h1>
 					Collin Brown
 				</h1>
