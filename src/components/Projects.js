@@ -16,11 +16,6 @@ import chessBrowser1 from '../resources/Chess Browser Database.png'
 function Projects() {
 	const coding_projects = [
 		{
-			title: 'Spreadsheet Application',
-			description: 'A Spreadsheet application similar to excel. Built using C#, the goal of this project was to learn how to work with a GUI, handle events such as clicking and typing, and to implement backend logic that would handle formulas. The formulas allowed users to add, subtract, multiply, and divide values within a specific block and output this data to another block. There is also support for additional formulas such as calculating averages and other more complex operations.',
-			img: spreadsheetAppPic
-		},
-		{
 			title: 'Tank Wars Game',
 			description: 'This project is a Tankwars game built in C#. As a class assignment we worked with a partner in a pair-programming environment. Part of this assignment we built the server architechture to handle the specifications of the (sample) client. We then used our server to build our own version client. Additionally, we handled projectile movements, projectile and tank collisions, and created bots that you can play against. Our server was built to handle mulitple clients and uses json to communicate back and fourth with the client(s). Likewise, the client was able to communicate back and fourth with the server via json, but all logic, projectiles, and collisions were handled on the server-side',
 			img: tankWarsGame1
@@ -29,6 +24,11 @@ function Projects() {
 			title: 'Chess Browser Database',
 			description: 'A backend database built using MySQL and C#\' Linq library to query the database. This app allowed users to upload a PGN formatted file which would be parsed and added into the database. Additionally, users could insert filters which would adjust queries on the backend and result in data displayed on the frontend.',
 			img: chessBrowser1
+		},
+		{
+			title: 'Spreadsheet Application',
+			description: 'A Spreadsheet application similar to excel. Built using C#, the goal of this project was to learn how to work with a GUI, handle events such as clicking and typing, and to implement backend logic that would handle formulas. The formulas allowed users to add, subtract, multiply, and divide values within a specific block and output this data to another block. There is also support for additional formulas such as calculating averages and other more complex operations.',
+			img: spreadsheetAppPic
 		},
 		{
 			title: 'Lifestyle Android App',

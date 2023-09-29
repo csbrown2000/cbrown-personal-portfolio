@@ -1,0 +1,52 @@
+/* Source Code font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+	border: 1px solid cyan;
+	color: black;
+}
+
+p, h1, h2, h3{
+	text-align: center;
+}
+
+div.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10rem;
+}
+
+div.about-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+div.about-title h1{
+	color: white;
+	text-align: center;
+}
+
+div.about-title h2{
+	color: white;
+	text-align: center;
+	font-family: 'Source Code Pro';
+}
+
+div.my-story{
+	display: flex;
+	flex-direction: column;
+	max-width: 40rem;
+	background-color: rgba(255,255,255,0.95);
+}
+
+div.my-story p{
+	font-family: 'Source Code Pro';
+	padding-left: 3rem;
+	padding-right: 3rem;
+	line-height: 1.25;
+}

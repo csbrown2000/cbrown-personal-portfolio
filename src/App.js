@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomeDisplay from './components/HomeDisplay';
 import Projects from './components/Projects';
+import About from './components/About';
 
 function App() {
 	return(
@@ -14,7 +15,7 @@ function App() {
 		<div className='index'>
 			<Navbar/>
 				<Routes>
-					<Route exact path='/about'>
+					<Route exact path='/about' element={<About/>}>
 						
 						{/* About Page */}
 					</Route>
