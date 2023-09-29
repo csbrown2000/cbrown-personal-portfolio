@@ -9,7 +9,7 @@ import './PictureSwitcher.css';
 // Function to ensure that an idx is within the bounds of the array
 // automatically loops back to start/end as index increases/decreases
 function cycler(idx, size){
-	if (idx > size){
+	if (idx === size){
 		return 0;
 	}else if (idx < 0){
 		return size - 1;
@@ -19,21 +19,20 @@ function cycler(idx, size){
 }
 
 function PictureSwitcher(props) {
-	const currIndex = 0;
-	const [img, setImg] = useState(props.img[currIndex]);
+	const [idx, setIdx] = useState(0);
 
 	const nextImg = () => {
-		setImg(props.img[cycler(currIndex + 1, props.img.size)])
+		setIdx(cycler(idx + 1, props.img.length));
 	};
-
+	
 	const prevImg = () => {
-		setImg(props.img[cycler(currIndex - 1, props.img.size)])
+		setIdx(cycler(idx - 1, props.img.length));
 	};
 
 	return ( 
 		<div className='picture-switcher'>
 			<button className='material-symbols-outlined' onClick={prevImg}>chevron_left</button>
-			<img src={img} alt="" />
+			<img src={props.img[idx]} alt="" />
 			<button className='material-symbols-outlined' onClick={nextImg}>chevron_right</button>
 		</div>
 	 );

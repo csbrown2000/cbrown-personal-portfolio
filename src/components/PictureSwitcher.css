@@ -9,6 +9,10 @@ div.picture-switcher{
 	padding: 0.5rem;
 }
 
+div.picture-switcher img{
+	padding: 0;
+}
+
 div.picture-switcher button {
 	max-width: max-content;
 	max-height: max-content;

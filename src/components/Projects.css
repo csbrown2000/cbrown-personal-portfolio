@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 div.list-item {
-	border: 1px solid white;
 	color: black;
-}
-
-div.list-item {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -14,8 +10,8 @@ div.list-item {
 	margin-left: 3rem;
 	margin-right: 3rem;
 	padding: 1rem;
-
-	background-color: white;
+	/* Background styling */
+	background-color: rgba(255, 255, 255, 0.97);
 	border: 1px solid transparent;
 	border-radius: 5px;
 }
@@ -42,5 +38,5 @@ div.list-item img{
 	border-radius: 5px;
 	max-width: 30rem;
 	max-height: max-content;
-	padding: 1rem;
+	margin: 1rem;
 }

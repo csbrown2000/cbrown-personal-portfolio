@@ -21,11 +21,6 @@ function Projects() {
 			img: spreadsheetAppPic
 		},
 		{
-			title: 'Learning Management System',
-			description: 'A learning management system web application backend built using C# and MySql. Using the C# linc library to work with the SQL database.',
-			img: ''
-		},
-		{
 			title: 'Tank Wars Game',
 			description: 'This project is a Tankwars game built in C#. As a class assignment we worked with a partner in a pair-programming environment. Part of this assignment we built the server architechture to handle the specifications of the (sample) client. We then used our server to build our own version client. Additionally, we handled projectile movements, projectile and tank collisions, and created bots that you can play against. Our server was built to handle mulitple clients and uses json to communicate back and fourth with the client(s). Likewise, the client was able to communicate back and fourth with the server via json, but all logic, projectiles, and collisions were handled on the server-side',
 			img: tankWarsGame1
@@ -39,6 +34,11 @@ function Projects() {
 			title: 'Lifestyle Android App',
 			description: 'A lifestyle app created to track BMR and caloric intake. The app also allowed users to see nearby hikes on a map, create and adjust user health information on their profile, and see nearby weather data which was pulled from an external API. This project was an assignment as part of a Mobile App Development class in which we worked in a team of four. The main goal of this project was to work with application lifecycles, query databases, implement external API\'s, learn kotlin, and make use of device specific components such as the camera.',
 			img: [lifestyleApp1, lifestyleApp2, lifestyleApp3]
+		},
+		{
+			title: 'Learning Management System',
+			description: 'A learning management system web application backend built using C# and MySql. Using the C# linc library to work with the SQL database.',
+			img: ''
 		},
 	];
 
