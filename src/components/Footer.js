@@ -19,7 +19,7 @@ function Footer(){
 				</li>
 			</ul>
 			<div>
-				<p>© 2023 Collin Brown</p>
+				<p>© 2024 Collin Brown</p>
 			</div>
 		</footer>
 	);

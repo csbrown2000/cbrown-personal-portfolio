@@ -25,7 +25,6 @@ function App() {
 						
 					<Route exact path='/' element={<HomeDisplay/>}/>
 				</Routes>
-			
 			<Footer/>
 		</div>
 
