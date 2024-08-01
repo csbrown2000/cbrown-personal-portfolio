@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomeDisplay from "./components/HomeDisplay";
 import Projects from "./components/Projects";
-import About from "./components/renamed";
+import About from "./components/About";
 
 function App() {
 	return (
